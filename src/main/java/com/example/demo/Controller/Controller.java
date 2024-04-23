@@ -17,7 +17,7 @@ public class Controller {
 	@GetMapping
     public Model getModelDetails() {
         return new Model("Max", "Berlin");
-        //http:localhost:8080/model/Max/Berlin
+        //http:localhost:8080/model
         //Correct URL
         //Output: {"modelName":"Max","modelAdress":"Berlin"}
 	}
